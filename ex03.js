@@ -9,7 +9,6 @@ Không highight hết các keyword trong content. (0.5đ)
  */
 
 function highlightKeyword(content, keyword) {
-    content[index]
     for (i = 0; i < content.length; i++){
 
     }

@@ -19,17 +19,31 @@ const products = [
     },
   ];
 
-<table>
- <thead>
-    <tr>
-    <th>`${id}`</th>
-    <th>`${name}`</th>
-    <th>`${price}`</th>
-    <th>`${brand}`</th>
-    </tr>
- </thead>
-</table>
+  function printProducts() {
+    for (let i = 0; i < products.length; i++){
+        
+        console.log(products[i]);
+        // let table = 
+        //     <tr>
+        //         <th>ID</th>
+        //         <th>Name</th>
+        //         <th>Price</th>
+        //         <th>Brand</th>
+        //       </tr>
+        //     </thead>
+        //     <tbody>
+        //       <tr>
+        //         <td>`${id}`</td>
+        //         <td>`${name}`</td>
+        //         <td>`${price}`</td>
+        //         <td>`${brand}`</td>
+        //       </tr>
+        //   </thead>
+        //   </table>
+    }
+  }
+  printProducts(products);
 
-  console.log(products);
 
-  document.write();
+
+  document.write("${table}");

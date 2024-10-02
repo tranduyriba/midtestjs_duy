@@ -18,9 +18,9 @@ function checkNumber(n) {
 
         if (n % 15 === 0) {
             console.log("Chia hết cho cả 3 số: 3, 5, 15");
-        } else if (n % 5 === 0){
+        } else if (n % 5 === 0 && typeof n === number){
             console.log("Chia hết cho 5");
-        } else if (n % 3 === 0) {
+        } else if (n % 3 === 0 && typeof n === number) {
             console.log("Chia hết cho 3");
         } else {
             console.log("Không chia hết");

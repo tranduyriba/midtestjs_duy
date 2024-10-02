@@ -14,10 +14,10 @@ function taxiFare(km) {
         console.log("invalid");
     } else if (km > 0 && km <= 1) {
         tienTaxi = 1 * 5000;
-    } else if (km >= 2) {
+    } else if (km > 1) {
         tienTaxi = 1 * 5000 + (km - 1) * 4000;
-    } else if (km >= 31) {
-        tienTaxi = 1 * 5000 + (km - 1) * 4000 + (km - 31) * 3000;
+    } else if (km > 30) {
+        tienTaxi = 1 * 5000 + (km - 1) * 4000 + (km - 30) * 3000;
     } 
     console.log(tienTaxi);
 }
